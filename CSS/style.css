@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(224, 224, 135);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'Bungee Outline', sans-serif;
+    color: brown;
+    font-size: 7.5em;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(192, 11, 11, 0.5);
+    padding: 10px;
+}
+
+.just-images{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    min-height: 75vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: pink;
+      }
+  
+  .round-choco img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .round-choco figcaption{
+    font-size: 2.3em;
+  }
+
+  .dark-choco img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .dark-choco figcaption{
+    font-size: 2.3em;
+  }
+
+  .have-images{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    min-height: 75vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(233, 179, 78);
+  }
+
+  .vanilla img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .vanilla figcaption{
+    font-size: 2.3em;
+  }
+
+  .truffle img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .truffle figcaption{
+    font-size: 2.3em;
+  }
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: rgb(224, 224, 135);
+}
+
+.mask img:hover{
+  opacity: 0.7;
+  background-color: red;
+  padding: 5%;
+}
+
